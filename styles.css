@@ -1,0 +1,46 @@
+/* Estilos personalizados */
+body {
+    background-color: #f8f9fa;
+    /* Fondo claro */
+}
+
+header {
+    background-color: #343a40;
+    /* Fondo oscuro */
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.header-logo {
+    max-width: 400px;
+    /* Ajusta el tamaño de la imagen */
+    max-height: 400px;
+    /* Mantén una relación cuadrada */
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    /* Hace que la imagen sea circular */
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir el contenedor */
+    margin-top: 50px;
+    /* Espacio arriba de la imagen */
+    margin-bottom: 20px;
+    /* Espacio debajo de la imagen */
+}
